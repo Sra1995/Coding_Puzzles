@@ -37,6 +37,6 @@ A single string `s` that represents a valid time in 12-hour clock format.
 5. Return the formatted 24-hour time.
 
 ## Key Takeaways
-- **This exercise reinforces string manipulation, conditional logic, and formatting skills.
-- **The solution is implemented in Python, C++, and C#, demonstrating cross-language adaptability.
-- **The algorithm is efficient and runs in constant time O(1) due to fixed input size.
+- This exercise reinforces string manipulation, conditional logic, and formatting skills.
+- The solution is implemented in Python, C++, and C#, demonstrating cross-language adaptability.
+- The algorithm is efficient and runs in constant time O(1) due to fixed input size.
