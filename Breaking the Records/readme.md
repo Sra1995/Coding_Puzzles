@@ -23,7 +23,6 @@ Return an array or list of two integers:
 
 **Input:**
 ```
-4
 12 24 10 24
 ```
 
