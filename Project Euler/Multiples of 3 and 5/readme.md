@@ -61,6 +61,8 @@ Sum of multiples of k = k * (p * (p + 1)) / 2
 
 Where p = floor((n - 1) / k) is the number of multiples of k below n.
 
+![formula in picture format form cuemath](https://d138zd1ktt9iqe.cloudfront.net/media/seo_landing_files/jayshree-sum-of-natural-numbers-formula-1623053562.png)
+
 
 
 This allows for a time complexity of \( O(1) \), making the solution extremely efficient for large values of `n`.
