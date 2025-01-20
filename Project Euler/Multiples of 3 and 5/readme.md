@@ -55,10 +55,14 @@ While this approach is better than brute force, it still uses two loops and a ha
 
 The final, optimized solution leverages the arithmetic progression sum formula to calculate the sum of multiples of 3, 5, and their common multiple 15 (to avoid double-counting). The formula for the sum of multiples of `k` below `n` is:
 
+The sum of multiples of `k` below `n` is given by:
+
 \[
 \text{Sum of multiples of } k = k \times \frac{p \times (p + 1)}{2}
 \]
+
 Where \( p = \left\lfloor \frac{n - 1}{k} \right\rfloor \) is the number of multiples of `k` below `n`.
+
 
 This allows for a time complexity of \( O(1) \), making the solution extremely efficient for large values of `n`.
 
