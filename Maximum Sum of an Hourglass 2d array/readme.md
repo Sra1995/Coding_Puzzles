@@ -1,4 +1,4 @@
-```markdown
+
 # Maximum Sum of an Hourglass
 
 ## Problem Statement
