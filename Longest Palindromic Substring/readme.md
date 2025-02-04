@@ -24,24 +24,25 @@ If the remaining substring length is smaller than half of the current longest pa
 2. Expand Around Center Efficiently
 
 We expand outwards from each index (both odd-length and even-length palindromes) while avoiding unnecessary slicing.
-
+```
 def expand(l, r):
     while l >= 0 and r < len(s) and s[l] == s[r]:
         l -= 1
         r += 1
     return l + 1, r - l - 1  # Return new start index and palindrome length
+```
 
-	•	Expands efficiently without extra memory overhead
-	•	Returns the starting index and length, reducing unnecessary slicing
+•	Expands efficiently without extra memory overhead
+•	Returns the starting index and length, reducing unnecessary slicing
 
 3. Immediate Return for Edge Cases
 
 For cases where s is already a palindrome or has only 1 character:
-
+```
 if len(s) <= 1 or s == s[::-1]:
     return s
-
-	•	Directly returns s in O(n) instead of unnecessary calculations
+```
+•	Directly returns s in O(n) instead of unnecessary calculations
 
 Final Code Implementation
 ```
